@@ -1,0 +1,355 @@
+/**
+ * Frontend Styling here.
+ *
+ */
+
+.maintenance-mode-active #main {
+    padding: 0;
+}
+
+.maintenance-mode-active section {
+    padding: 0;
+}
+
+.cvmn-frontpage {
+    position: relative;
+    height: 100vh;
+}
+
+.cvmn-countdown-content-popup {
+    display: none;
+}
+
+.maintenance-mode-active #secondary {
+    width: 100%;
+}
+
+
+/* Background Overlay none */
+
+.maintenance-mode-active {
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cvmn-frontpage .page-header {
+    text-align: center;
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cvmn-frontpage .page-header img {
+    margin-bottom: 15px;
+}
+
+.maintenance-mode-active .page-header .page-title {
+    width: 100%;
+    order: 3;
+    font-size: 40px;
+}
+
+.maintenance-mode-active .page-content {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.maintenance-mode-active .page-content .page-description {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.background--static-image {
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
+
+.maintenance-mode-active #primary {
+    width: 100%!important;
+}
+
+.maintenance-mode-active.background-overlay--none .page-header .page-title,
+.maintenance-mode-active.background-overlay--none .page-heading,
+.maintenance-mode-active.background-overlay--none .page-content,
+.maintenance-mode-active.background-overlay--none .cvmn-header-toggle-trigger,
+.background-overlay--none .cvmn-countdown-content,
+.background-overlay--none .cvmn-social-icons-wrap li a,
+.background-overlay--none .cvmn-footer-content {
+    color: #333;
+}
+
+.maintenance-mode-active .page-content,
+.maintenance-mode-active .cvmn-footer-content {
+    text-align: center;
+}
+
+.maintenance-mode-active .page-heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.cvmn-countdown-content {
+    list-style: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+.cvmn-countdown-content li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.cvmn-countdown-content li span {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.cvmn-countdown-content li p {
+    margin-top: -10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.cvmn-countdown-content .seperator {
+    display: none;
+}
+
+.cvmn-button-main-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cvmn-button {
+    margin: 15px;
+}
+
+.cvmn-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
+.cvmn-button a:hover {
+    background: none;
+    color: #fff;
+}
+
+.cvmn-social-icons-wrap {
+    list-style: none;
+}
+
+.cvmn-social-icons-wrap li {
+    display: inline-block;
+}
+
+.cvmn-social-icons-wrap li a {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* Background Overlay One */
+
+.background-overlay--type-one {
+    position: relative;
+}
+
+.background-overlay--type-one:before {
+    content: '';
+    background: rgba(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.maintenance-mode-active .page-title,
+.maintenance-mode-active .page-heading,
+.maintenance-mode-active .page-content,
+.maintenance-mode-active .cvmn-header-toggle-trigger,
+.cvmn-countdown-content,
+.cvmn-footer-content {
+    color: #fff;
+}
+
+
+/* Background Overlay Two */
+
+.background-overlay--type-two,
+.background-overlay--type-three {
+    position: relative;
+}
+
+.background-overlay--type-two:before,
+.background-overlay--type-three:before,
+.background-overlay--type-four:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.8) url("../images/overlay-two.png") repeat scroll 0 0;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* Background Overlay Three */
+
+.background-overlay--type-three:before {
+    background: rgba(0, 0, 0, 0.5) url("../images/overlay-three.png") repeat scroll 0 0;
+}
+
+
+/* Background Overlay Four */
+
+.background-overlay--type-four:before {
+    background: rgba(0, 0, 0, 0.7) url("../images/overlay-four.png") repeat scroll 0 0;
+}
+
+
+/* Video Background */
+
+#wrapper_cvmn-bgVideo {
+    z-index: -1!important;
+}
+
+
+/* Login form */
+
+.cvmn-login-main-wrapper {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+}
+
+#cvmn-login-trigger {
+    background: #fff;
+    color: #333;
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cvmn-login-form-wrapper {
+    width: 100%;
+    background: rgba(255, 255, 255);
+    padding: 30px;
+    text-align: left;
+    margin-left: -30%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.cvmn-login-main-wrapper.isActive .cvmn-login-form-wrapper {
+    visibility: visible;
+    opacity: 1;
+    margin-left: 0;
+}
+
+.cvmn-header-toggle-content.isActive .cvmn-login-form-wrapper {
+    visibility: visible;
+}
+
+.cvmn-login-form-wrapper .cvmn-login-title {
+    text-align: left;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cvmn-login-form-wrapper label {
+    color: #555;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.cvmn-login-form-wrapper input[type="text"],
+.cvmn-login-form-wrapper input[type="email"],
+.cvmn-login-form-wrapper input[type="password"] {
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cvmn-login-form-wrapper input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ccc;
+}
+
+.cvmn-login-form-wrapper .login-remember input {
+    margin-right: 5px;
+}
+
+.cvmn-login-form-wrapper input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+.cvmn-login-form-wrapper input[type="submit"]:hover {
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media(min-width:992px) {
+    .maintenance-mode-active .page-content {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media(min-width:700px) {
+    .maintenance-mode-active section {
+        padding: 0;
+    }
+}
+
+@media(max-width:767px) {
+    .maintenance-mode-active .page-content .page-description {
+        width: 90%;
+    }
+    .cvmn-frontpage .page-header {
+        padding: 30px 20px;
+    }
+    .cvmn-frontpage .page-header img {
+        width: 60%;
+    }
+}
+
+@media(max-width:600px) {
+    .cvmn-login-main-wrapper {
+        width: 70%;
+    }
+    .cvmn-countdown-content li {
+        padding: 10px;
+    }
+    .maintenance-mode-active .page-heading,
+    .cvmn-countdown-content li span {
+        font-size: 30px!important;
+    }
+}

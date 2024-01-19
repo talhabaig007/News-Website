@@ -1,0 +1,725 @@
+/**
+ * Add admin styling here.
+ */
+
+
+/*=================================================
+    Backend CSS
+=================================================*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cvmn-clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cvmn-admin-block-wrapper {
+  margin-top: 30px;
+}
+
+.cvmn-tab-block-wrapper {
+  float: left;
+  max-width: 15%;
+}
+
+.cvmn-nav-tab-wrapper {
+  padding-top: 0;
+}
+
+.cvmn-nav-tab-wrapper ul {
+  margin: 0;
+}
+
+.cvmn-nav-tab-wrapper ul li {
+  display: block;
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.cvmn-nav-tab-wrapper ul li a {
+  position: relative;
+  display: block;
+  padding: 16px 44px 18px 72px;
+  text-decoration: none;
+  color: #121116;
+  border-top: 1px solid #E0E4E9;
+  border-left: 4px solid transparent;
+  overflow: hidden;
+  transition: all 100ms ease-out;
+  -webkit-transition: all 100ms ease-out;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cvmn-nav-tab-wrapper ul li i {
+  position: absolute;
+  left: 20px;
+  top: 22px;
+  font-size: 33px;
+}
+
+.cvmn-nav-tab-wrapper ul li:hover a,
+.cvmn-nav-tab-wrapper ul li.isActive a {
+  color: #27b6d4;
+  background: #fff;
+  border-left: 4px solid #27b6d4;
+}
+
+.cvmn-nav-sub-title {
+  font-weight: 400;
+  display: block;
+  color: #8D8D8D;
+  font-size: 11px;
+}
+
+.cvmn-content-block-wrapper {
+  float: left;
+  width: 75%;
+  background: #fff;
+  padding: 30px;
+  min-height: 500px;
+}
+
+.cvmn-content-block-wrapper#cvmn-main-content {
+  width: 60%;
+}
+
+.cvmn-admin-fields {
+  margin-top: 16px;
+  background: #F9FAFB;
+  padding: 16px;
+  border: 1px solid #E8EBEE;
+  border-radius: 2px;
+}
+
+.cvmn-promo-sidebar {
+  width: 20%;
+  float: right;
+  margin-right: 1%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  min-height: 500px;
+}
+
+.cvmn-promo-sidebar a {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cvmn-promo-sidebar a img {
+  width: 100%;
+}
+
+.cvmn-admin-title {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.cvmn-admin-desc {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cvmn-admin-desc {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cvmn-admin-img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cvmn-admin-img img {
+  width: 100%;
+}
+
+.cvmn-main-btn-wrap .cvmn-main-btn a {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+
+.cvmn-main-btn-wrap .cvmn-main-btn {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.cvmn-main-btn-wrap {
+  display: block;
+  text-align: center;
+}
+
+.cvmn-admin-box-wrapper {
+  display: flex;
+}
+
+.cvmn-admin-box-wrapper .cvmn-admin-fields {
+  width: 30.33%;
+  box-sizing: border-box;
+  flex-grow: 3;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.cvmn-admin-box-wrapper .cvmn-main-btn {
+  margin-top: 20px;
+}
+
+.wp-menu-image.dashicons-before.dashicons-cvmn-admin-menu-icon:before {
+  content: "\e906";
+  font-family: 'cvmn-icons';
+  columns: rgba(240, 245, 250, .6);
+}
+
+.footer-content.cvmn-promo-block {
+  border: 2px dashed #0071A1;
+  margin-bottom: 20px;
+  padding: 0px 20px 30px;
+}
+
+.cvmn-promo-block .cvmn-admin-sub-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cvmn-promo-block .cvmn-footer-list li::before {
+  content: "\f147";
+  font-family: dashicons;
+  display: inline-block;
+  font-size: 20px;
+  color: #43A047;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.cvmn-promo-block .button.button-primary {
+  width: 100%;
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.footer-content.cvmn-wpall-block {
+  background: #f9f9f9;
+  padding: 20px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field {
+  border: 1px solid #e1e1e1;
+  margin-top: 15px;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .cvmn-admin-field-heading {
+  font-weight: 700;
+}
+
+.cvmn-typography-row .cvmn-admin-field-heading {
+  margin: 0;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .cvmn-admin-field-options {
+  margin-top: 20px;
+  display: flex;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .cvmn-admin-field-single-options {
+  margin-right: 20px;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .cvmn-admin-field-single-options label {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  position: relative;
+  top: 2px;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .dashicons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cvmn-form-button-wrapper {
+  display: flex;
+  margin-top: 15px;
+}
+
+.cvmn-form-button-wrapper .cvmn-form-button {
+  margin-right: 15px;
+}
+
+/*new added*/
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .placeholder {
+    width: 25%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+}
+
+#cvmn-maintenance-notice-options-form .cvmn-admin-single-field .cvmn-buttons-wrapper {
+    margin-left: 10px;
+}
+
+
+/**************************************
+      Switch control field
+***************************************/
+
+.cvmn-admin-toggle-field .cvmn-switch {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 35px;
+  height: 12px;
+  border-radius: 8px;
+  background: #ccc;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: background 350ms ease;
+}
+
+.cvmn-admin-toggle-field .cvmn-switch:before,
+.cvmn-admin-toggle-field .cvmn-switch:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+}
+
+.cvmn-admin-toggle-field .cvmn-switch:before {
+  background: rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -50%, 0) scale(0);
+}
+
+.cvmn-admin-toggle-field .cvmn-switch:after {
+  background: #999;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -50%, 0);
+}
+
+.cvmn-admin-toggle-field .cvmn-switch.active:before {
+  transform: translate3d(0, -50%, 0) scale(3);
+}
+
+.cvmn-admin-toggle-field input[value="show"]+.cvmn-switch {
+  background: rgba(52, 152, 222, 0.3);
+}
+
+.cvmn-admin-toggle-field input[value="show"]+.cvmn-switch:before {
+  background: rgba(52, 152, 222, 0.075);
+  transform: translate3d(100%, -50%, 0) scale(1);
+}
+
+.cvmn-admin-toggle-field input[value="show"]+.cvmn-switch:after {
+  background: #3498DE;
+  transform: translate3d(100%, -50%, 0);
+}
+
+.cvmn-admin-toggle-field input[value="show"]+.cvmn-switch.active:before {
+  background: rgba(52, 152, 222, 0.075);
+  transform: translate3d(100%, -50%, 0) scale(3);
+}
+
+
+/*******************************
+ Radio image field
+*******************************/
+
+.cvmn-admin-single-field.cvmn-radio-image-field span.image-selector {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.cvmn-radio-image-field span.isActive,
+.cvmn-admin-single-field.cvmn-radio-image-field span.isActive {
+  border: 2px solid #0073aa;
+}
+
+
+/* New Admin CSS */
+
+#adminmenu .wp-has-current-submenu ul>li>a,
+.folded #adminmenu li.menu-top .wp-submenu>li>a {
+  padding: 5px 20px;
+}
+
+#cvmn-maintenance-notice-options-form {
+  margin-top: 15px;
+}
+
+.cvmn-admin-single-field label {
+  font-weight: 600;
+}
+
+.cvmn-admin-field-heading {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+
+/* Repeater Field */
+
+.cvmn-repeater-row-head {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 7px 20px;
+  margin-top: 15px;
+}
+
+.cvmn-repeater-single-toggleHead {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.button.cvmn-repeater-add-item {
+  margin-top: 15px;
+}
+
+.button.cvmn-repeater-add-item i {
+  padding-right: 5px;
+}
+
+.cvmn-repeater-inner-single-item .cvmn-item-label {
+  display: inline-flex;
+  background: #e0e0e0;
+  padding: 7px 20px;
+  margin: 15px 0;
+}
+
+.cvmn-repeater-inner-single-item .cvmn-icon-label {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.cvmn-repeater-single-item-icons-wrap {
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.cvmn-repeater-single-item-icons-wrap .cvmn-repeater-icon-wrap {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  border-top: 0;
+  padding: 8px;
+  background: #fff;
+}
+
+.cvmn-icons-search {
+  position: relative;
+}
+
+.cvmn-icons-search i {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.cvmn-icons-search input {
+  width: 100%;
+}
+
+.cvmn-repeater-single-item-icon {
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.cvmn-repeater-single-item-icon.isActive {
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+
+.cvmn-cvmn-repeater-single-toggleContent .cvmn-item-label .icon-toggle {
+  margin-left: 15px;
+}
+
+#cvmn-social-settings .cvmn-repeater-single-item-icons-wrap {
+  width: 100%;
+}
+
+button.delete-item {
+  padding: 7px 10px;
+  background: #666;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.cvmn-admin-single-field.cvmn-meta-upload-field {
+  display: flex;
+  align-items: center;
+}
+
+.cvmn-admin-single-field.cvmn-meta-upload-field label {
+  margin-right: 15px;
+}
+
+.cvmn-admin-single-field.cvmn-meta-upload-field img {
+  width: 100px !important;
+  margin-right: 15px;
+  background: #eee;
+  padding: 10px;
+}
+
+.cvmn-admin-single-field.cvmn-meta-upload-field button {
+  margin-right: 15px;
+}
+
+.cvmn-admin-single-field label {
+  margin-right: 13px;
+}
+
+input#cvmn_background_video_url {
+  width: 350px;
+}
+
+input[name="cvmn_copyright_text"] {
+  width: 300px;
+}
+
+.cvmn-admin-single-field.cvmn-radio-image-field span.image-selector img {
+  height: 70px;
+}
+
+.cvmn-admin-single-field select {
+  min-width: 150px;
+}
+
+
+/* Content Settings */
+
+#cvmn-content-settings .cvmn-admin-single-field .cvmn-admin-single-field.cvmn-admin-toggle-field,
+#cvmn-content-settings .cvmn-admin-single-field.cvmn-button-input-field {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#cvmn-content-settings .cvmn-admin-single-field.cvmn-button-input-field {
+    width: 49%;
+    margin-right: -4px;
+}
+
+#cvmn-content-settings .cvmn-admin-single-field.cvmn-button-input-field input {
+    width: 62%;
+}
+
+#cvmn-content-settings .cvmn-admin-single-field.cvmn-button-input-field:nth-of-type(2n+2) {
+    margin-right: 0;
+    margin-left: 2%;
+}
+
+/* Countdown Settings */
+
+#cvmn-countdown-settings .cvmn-admin-single-field .cvmn-admin-single-field:nth-child(3),
+#cvmn-countdown-settings .cvmn-admin-single-field .cvmn-admin-single-field:nth-child(4) {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#cvmn-countdown-settings .cvmn-admin-single-field input[name="cvmn_site_features_title"],
+#cvmn-countdown-settings .cvmn-repeater-inner-single-item input[name="cvmn_site_features_item"] {
+  width: 250px;
+}
+
+#cvmn-countdown-settings .cvmn-admin-single-field.cvmn-admin-repeater-field {
+  width: 100%;
+}
+
+/* Logo CSS */
+
+.cvmn-tab-block-wrapper img {
+  width: 100%;
+  padding-right: 20px;
+}
+
+@media (max-width:1400px) {
+  .cvmn-promo-sidebar {
+    width: 25%;
+  }
+
+  .cvmn-content-block-wrapper {
+    width: 70%;
+  }
+
+  .cvmn-content-block-wrapper#cvmn-main-content {
+    width: 50%;
+  }
+
+  .cvmn-tab-block-wrapper {
+    max-width: 20%;
+  }
+
+  .cvmn-main-btn-wrap .cvmn-main-btn a {
+    margin: 0;
+    padding: 5px 10px;
+  }
+
+  #cvmn-help .cvmn-admin-box-wrapper {
+    flex-wrap: wrap;
+  }
+
+  #cvmn-help .cvmn-admin-box-wrapper .cvmn-admin-fields {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #cvmn-help .cvmn-admin-box-wrapper .cvmn-admin-fields:last-child {
+    margin-bottom: -20px;
+  }
+}
+
+@media (max-width:1200px) {
+  .cvmn-promo-sidebar {
+    width: 100%;
+    float: none;
+    clear: both;
+    position: relative;
+    top: 40px;
+    min-height: auto;
+  }
+
+  .cvmn-tab-block-wrapper {
+    max-width: 30%;
+  }
+
+  .cvmn-content-block-wrapper {
+    width: 68%;
+  }
+}
+
+@media (max-width:900px) {
+  .cvmn-tab-block-wrapper {
+    max-width: 100%;
+  }
+
+  .cvmn-content-block-wrapper {
+    width: 99%;
+    float: none;
+  }
+
+  .cvmn-tab-block-wrapper {
+    max-width: 100%;
+    float: none;
+  }
+
+  .cvmn-nav-tab-wrapper ul li {
+    display: inline-block;
+    width: 80px;
+    vertical-align: top;
+  }
+
+  .cvmn-nav-tab-wrapper ul li a {
+    font: 0/0 a;
+    display: block;
+    height: 67px;
+    padding: 0 0;
+    border-top: none;
+  }
+
+  .cvmn-nav-sub-title {
+    display: none;
+  }
+
+  .cvmn-nav-tab-wrapper ul li i {
+    font-size: 28px;
+  }
+
+  .cvmn-main-btn-wrap {
+    max-width: 100%;
+  }
+
+  .cvmn-admin-box-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:768px) {
+  .cvmn-main-btn-wrap .cvmn-main-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .cvmn-admin-box-wrapper .cvmn-admin-fields {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .cvmn-content-block-wrapper#cvmn-main-content,
+  #cvmn-content-settings .cvmn-admin-single-field.cvmn-button-input-field {
+    width: 98%;
+  }
+}

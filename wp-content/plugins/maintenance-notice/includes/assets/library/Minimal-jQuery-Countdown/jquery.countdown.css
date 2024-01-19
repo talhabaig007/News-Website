@@ -1,0 +1,24 @@
+ul.cvmn-countdown-content {
+	list-style: none;
+	margin: 50px 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+ul.cvmn-countdown-content li {
+	display: inline-block;
+}
+ul.cvmn-countdown-content li span {
+	font-size: 80px;
+	font-weight: 300;
+	line-height: 80px;
+}
+ul.cvmn-countdown-content li.seperator {
+	font-size: 80px;
+	line-height: 70px;
+	vertical-align: top;
+}
+ul.cvmn-countdown-content li p {
+	color: #a7abb1;
+	font-size: 25px;
+}

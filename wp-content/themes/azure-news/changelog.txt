@@ -1,0 +1,20 @@
+== 1.0.14: 2023-11-20 ==
+- Imp: Theme description changed.
+- Fix: Design issues fixed.
+- Imp: Some design improvement done.
+- Imp: Customizer and dashboard improvement done.
+
+== 1.0.13: 2023-11-06 ==
+- Fix: screenshot.
+
+== 1.0.12: 2023-10-31 ==
+ - Fix: php bug in breadcrumb in post format pages.
+
+== 1.0.11: 2023-10-31 ==
+- Fix: php bug in breadcrumb.
+
+== 1.0.1: 2023-10-30 ==
+- Fix: php bug in news ticker section.
+
+== 1.0.0: 2023-10-29 ==
+- New: Submit theme in WordPress repo.

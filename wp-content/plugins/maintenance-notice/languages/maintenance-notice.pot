@@ -1,0 +1,568 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Notice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-23 02:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7\n"
+"X-Domain: maintenance-notice"
+
+#: admin/partials/content-review.php:19
+#, php-format
+msgid "%1s Send us your Feedback %2s"
+msgstr ""
+
+#: admin/partials/content-review.php:26
+#, php-format
+msgid "%1s Thanks for choosing Maintenance Notice %2s"
+msgstr ""
+
+#: admin/partials/content-review.php:21
+#, php-format
+msgid ""
+"%2sPlease let us know about your experience with Maintenance Notice so far. "
+"We love to hear positive things but we're also thankful for the negatives. "
+"Your feedback will alert us to problems and help us improve our Maintenance "
+"Notice.\n"
+"            Are you happy with us? Would you mind taking a moment to leave "
+"us a rating? It will only take a minute. We look forward to receiving "
+"feedback from you to make Maintenance Notice even more useful for you and "
+"others. !%2s"
+msgstr ""
+
+#: admin/partials/additional-settings.php:141
+msgid "Add new"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:178
+#: admin/class-maintenance-notice-admin.php:179
+#: admin/class-maintenance-notice-admin.php:327
+msgid "Additional Settings"
+msgstr ""
+
+#: admin/partials/background-settings.php:41
+msgid "Background appears as a full page wrapper behind the content"
+msgstr ""
+
+#: admin/partials/background-settings.php:51
+#: admin/partials/typography-settings.php:470
+msgid "Background Color"
+msgstr ""
+
+#: admin/partials/background-settings.php:56
+msgid "Background Image"
+msgstr ""
+
+#: admin/partials/background-settings.php:77
+msgid "Background Overlay Type"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:158
+#: admin/class-maintenance-notice-admin.php:159
+#: admin/class-maintenance-notice-admin.php:289
+msgid "Background Settings"
+msgstr ""
+
+#: admin/partials/background-settings.php:40
+msgid "Background Type"
+msgstr ""
+
+#: admin/partials/background-settings.php:71
+msgid "Background Video Url"
+msgstr ""
+
+#: admin/partials/typography-settings.php:475
+msgid "Border Color"
+msgstr ""
+
+#: admin/partials/typography-settings.php:409
+msgid "Button One"
+msgstr ""
+
+#: admin/partials/content-settings.php:80
+msgid "Button One Label"
+msgstr ""
+
+#: admin/partials/content-settings.php:84
+msgid "Button One Url"
+msgstr ""
+
+#: admin/partials/typography-settings.php:170
+#: admin/partials/typography-settings.php:239
+#: admin/partials/typography-settings.php:308
+#: admin/partials/typography-settings.php:377
+#: admin/partials/typography-settings.php:446
+msgid "Capitalize"
+msgstr ""
+
+#. Author of the plugin
+msgid "CodeVibrant"
+msgstr ""
+
+#: admin/partials/background-settings.php:44
+msgid "Color Background"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:138
+#: admin/class-maintenance-notice-admin.php:139
+#: admin/class-maintenance-notice-admin.php:251
+msgid "Content Settings"
+msgstr ""
+
+#: includes/hooks/section-hooks.php:243
+#, php-format
+msgid "copyright %1$s codevibrant %2$s"
+msgstr ""
+
+#: admin/partials/typography-settings.php:340
+msgid "Countdown "
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:270
+msgid "Countdown  Settings"
+msgstr ""
+
+#: admin/partials/countdown-settings.php:36
+msgid "Countdown clock Settings"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:148
+#: admin/class-maintenance-notice-admin.php:149
+msgid "Countdown Settings"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:128
+#: admin/class-maintenance-notice-admin.php:129
+msgid "Dashboard"
+msgstr ""
+
+#: includes/hooks/section-hooks.php:307
+msgid "Days"
+msgstr ""
+
+#: admin/partials/additional-settings.php:134
+msgid "Delete item"
+msgstr ""
+
+#: admin/partials/content-settings.php:67
+msgid "Description"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:44
+msgid ""
+"Display your website as the maintenance mode. Hidding all the other website "
+"content"
+msgstr ""
+
+#: admin/partials/content-help.php:12
+msgid "Do you need any help related to our plugin ?"
+msgstr ""
+
+#: admin/partials/content-help.php:24
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:43
+msgid "Enable maintenance mode"
+msgstr ""
+
+#: admin/partials/typography-settings.php:190
+#: admin/partials/typography-settings.php:259
+#: admin/partials/typography-settings.php:328
+#: admin/partials/typography-settings.php:397
+#: admin/partials/typography-settings.php:466
+msgid "Font Color"
+msgstr ""
+
+#: admin/partials/typography-settings.php:139
+#: admin/partials/typography-settings.php:208
+#: admin/partials/typography-settings.php:277
+#: admin/partials/typography-settings.php:346
+#: admin/partials/typography-settings.php:415
+msgid "Font Family"
+msgstr ""
+
+#: admin/partials/typography-settings.php:185
+#: admin/partials/typography-settings.php:254
+#: admin/partials/typography-settings.php:323
+#: admin/partials/typography-settings.php:392
+#: admin/partials/typography-settings.php:461
+msgid "Font Size"
+msgstr ""
+
+#: admin/partials/additional-settings.php:78
+msgid "Form Title"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:30
+msgid "Get Started with Maintenance Notice"
+msgstr ""
+
+#: admin/partials/content-review.php:12
+msgid "Give a review & motivate us"
+msgstr ""
+
+#: admin/partials/content-settings.php:63
+msgid "Heading"
+msgstr ""
+
+#: includes/hooks/section-hooks.php:309
+msgid "Hours"
+msgstr ""
+
+#: admin/partials/typography-settings.php:485
+msgid "Hover Background Color"
+msgstr ""
+
+#: admin/partials/typography-settings.php:480
+msgid "Hover Text Color"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codevibrant.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/maintenance-notice/"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:105
+msgid "Imported"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:104
+msgid "Importing"
+msgstr ""
+
+#: admin/partials/typography-settings.php:125
+msgid "Inherit to default plugin typography"
+msgstr ""
+
+#: admin/partials/content-review.php:24
+#, php-format
+msgid "Leave a review %1s here %2s and"
+msgstr ""
+
+#: admin/partials/typography-settings.php:180
+#: admin/partials/typography-settings.php:249
+#: admin/partials/typography-settings.php:318
+#: admin/partials/typography-settings.php:387
+#: admin/partials/typography-settings.php:456
+msgid "Line through"
+msgstr ""
+
+#: includes/class-maintenance-notice-activator.php:65
+msgid "Log In"
+msgstr ""
+
+#: admin/partials/additional-settings.php:69
+msgid "Login Form Setting"
+msgstr ""
+
+#: admin/partials/content-settings.php:43
+msgid "Logo"
+msgstr ""
+
+#: admin/partials/typography-settings.php:169
+#: admin/partials/typography-settings.php:238
+#: admin/partials/typography-settings.php:307
+#: admin/partials/typography-settings.php:376
+#: admin/partials/typography-settings.php:445
+msgid "Lowercase"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-maintenance-notice-admin.php:117
+#: admin/class-maintenance-notice-admin.php:118
+#: includes/hooks/section-hooks.php:26
+msgid "Maintenance Notice"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Maintenance Notice is a WordPress plugin that allows you to put the "
+"maintenance notice on your website. It helps to inform the visitors that "
+"your site is in maintenance mode without showing the broken site to the "
+"users."
+msgstr ""
+
+#: admin/partials/content-dashboard.php:35
+msgid "Maintenance Notice is the plugin for all site"
+msgstr ""
+
+#: admin/partials/content-settings.php:37
+msgid "Manage your maintenance mode content"
+msgstr ""
+
+#: includes/hooks/section-hooks.php:311
+msgid "Minutes"
+msgstr ""
+
+#: admin/partials/background-settings.php:57
+#: admin/partials/content-settings.php:44
+msgid "No image selected"
+msgstr ""
+
+#: admin/partials/background-settings.php:43
+#: admin/partials/typography-settings.php:167
+#: admin/partials/typography-settings.php:177
+#: admin/partials/typography-settings.php:236
+#: admin/partials/typography-settings.php:246
+#: admin/partials/typography-settings.php:305
+#: admin/partials/typography-settings.php:315
+#: admin/partials/typography-settings.php:374
+#: admin/partials/typography-settings.php:384
+#: admin/partials/typography-settings.php:443
+#: admin/partials/typography-settings.php:453
+msgid "None"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:350
+msgid "Other Recommended Plugins"
+msgstr ""
+
+#: admin/partials/content-help.php:21
+msgid ""
+"Our documentation gives all the necessary detailed information to get you "
+"started. It provides an elaborated overview on plugin features, how to use "
+"those features and how to troubleshoot errors."
+msgstr ""
+
+#: admin/partials/content-help.php:30
+msgid ""
+"Our TeamSupport specialists are standing by to better understand your "
+"customer support needs and solve your problem for you. We aim to provide "
+"professional technical support  24/7 to satisfy your need and wish. We also "
+"offer support via email and social media."
+msgstr ""
+
+#: admin/partials/background-settings.php:87
+msgid "Overlay Opcacity"
+msgstr ""
+
+#: admin/partials/typography-settings.php:179
+#: admin/partials/typography-settings.php:248
+#: admin/partials/typography-settings.php:317
+#: admin/partials/typography-settings.php:386
+#: admin/partials/typography-settings.php:455
+msgid "Overline"
+msgstr ""
+
+#: admin/partials/typography-settings.php:271
+msgid "Page Description"
+msgstr ""
+
+#: admin/partials/typography-settings.php:202
+msgid "Page Heading"
+msgstr ""
+
+#: admin/partials/content-settings.php:58
+#: admin/partials/typography-settings.php:133
+msgid "Page Title"
+msgstr ""
+
+#: admin/partials/background-settings.php:72
+msgid "Plays as the background video"
+msgstr ""
+
+#: admin/partials/countdown-settings.php:53
+msgid "Popup Content ( This content will popup after countdown time ends )"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:50
+msgid "Preview"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:49
+msgid "Preview the maintenance mode without enabling the mode in your website"
+msgstr ""
+
+#: admin/partials/background-settings.php:66
+#: admin/partials/content-settings.php:53
+msgid "Remove Image"
+msgstr ""
+
+#: admin/partials/content-dashboard.php:58
+msgid "Reset settings"
+msgstr ""
+
+#: admin/partials/additional-settings.php:148
+#: admin/partials/background-settings.php:93
+#: admin/partials/content-dashboard.php:54
+#: admin/partials/content-settings.php:91
+#: admin/partials/countdown-settings.php:67
+#: admin/partials/typography-settings.php:495
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/additional-settings.php:148
+#: admin/partials/background-settings.php:93
+#: admin/partials/background-settings.php:93
+#: admin/partials/content-dashboard.php:54
+#: admin/partials/content-dashboard.php:54
+#: admin/partials/content-settings.php:91
+#: admin/partials/content-settings.php:91
+#: admin/partials/countdown-settings.php:67
+#: admin/partials/countdown-settings.php:67
+#: admin/partials/typography-settings.php:495
+#: admin/partials/typography-settings.php:495
+msgid "Saved"
+msgstr ""
+
+#: admin/partials/additional-settings.php:148
+#: admin/partials/background-settings.php:93
+#: admin/partials/content-dashboard.php:54
+#: admin/partials/content-settings.php:91
+#: admin/partials/countdown-settings.php:67
+#: admin/partials/typography-settings.php:495
+msgid "Saving.."
+msgstr ""
+
+#: includes/hooks/section-hooks.php:313
+msgid "Seconds"
+msgstr ""
+
+#: admin/partials/additional-settings.php:111
+msgid "Select Icon"
+msgstr ""
+
+#: admin/partials/countdown-settings.php:45
+msgid "Set Countdown date upto"
+msgstr ""
+
+#: admin/partials/countdown-settings.php:49
+msgid "Set Countdown time upto"
+msgstr ""
+
+#: admin/partials/countdown-settings.php:40
+msgid "Show countdown clock"
+msgstr ""
+
+#: admin/partials/additional-settings.php:73
+msgid "Show Login Form"
+msgstr ""
+
+#: admin/partials/additional-settings.php:92
+msgid "Show Social Icons"
+msgstr ""
+
+#: admin/partials/additional-settings.php:105
+msgid "Single Item"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:408
+#: includes/class-maintenance-notice-activator.php:45
+msgid "Site Maintenance is on"
+msgstr ""
+
+#: admin/partials/additional-settings.php:97
+msgid "Social Icons"
+msgstr ""
+
+#: admin/partials/additional-settings.php:88
+msgid "Social Icons Setting"
+msgstr ""
+
+#: admin/partials/background-settings.php:45
+msgid "Static Image Background"
+msgstr ""
+
+#: includes/class-maintenance-notice-activator.php:50
+#: admin/partials/content-settings.php:32
+msgid "Subscribe Us"
+msgstr ""
+
+#: admin/partials/content-help.php:33
+msgid "Support"
+msgstr ""
+
+#: admin/partials/typography-settings.php:175
+#: admin/partials/typography-settings.php:244
+#: admin/partials/typography-settings.php:313
+#: admin/partials/typography-settings.php:382
+#: admin/partials/typography-settings.php:451
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/partials/typography-settings.php:165
+#: admin/partials/typography-settings.php:234
+#: admin/partials/typography-settings.php:303
+#: admin/partials/typography-settings.php:372
+#: admin/partials/typography-settings.php:441
+msgid "Text Transform"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:416
+#: includes/class-maintenance-notice-activator.php:55
+msgid ""
+"Thank you for your patience! We are here now with site content. Its not so "
+"far"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:168
+#: admin/class-maintenance-notice-admin.php:169
+#: admin/class-maintenance-notice-admin.php:308
+msgid "Typography Settings"
+msgstr ""
+
+#: admin/partials/typography-settings.php:178
+#: admin/partials/typography-settings.php:247
+#: admin/partials/typography-settings.php:316
+#: admin/partials/typography-settings.php:385
+#: admin/partials/typography-settings.php:454
+msgid "Underline"
+msgstr ""
+
+#: admin/partials/background-settings.php:65
+#: admin/partials/content-settings.php:52
+msgid "Upload Image"
+msgstr ""
+
+#: admin/partials/typography-settings.php:168
+#: admin/partials/typography-settings.php:237
+#: admin/partials/typography-settings.php:306
+#: admin/partials/typography-settings.php:375
+#: admin/partials/typography-settings.php:444
+msgid "Uppercase"
+msgstr ""
+
+#: admin/partials/typography-settings.php:152
+#: admin/partials/typography-settings.php:221
+#: admin/partials/typography-settings.php:290
+#: admin/partials/typography-settings.php:359
+#: admin/partials/typography-settings.php:428
+msgid "Variant"
+msgstr ""
+
+#: admin/partials/background-settings.php:46
+msgid "Video Background"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:409
+#: includes/class-maintenance-notice-activator.php:46
+msgid "We will be available soon. Thank you for your patience!"
+msgstr ""
+
+#: admin/class-maintenance-notice-admin.php:346
+msgid "WordPress Tutorial & Guides"
+msgstr ""
+
+#: admin/partials/content-help.php:42
+msgid "Wpallresources"
+msgstr ""
+
+#: admin/partials/content-help.php:39
+msgid ""
+"WPAllresources is a completely free online WordPress resources offers "
+"genuine and useful content helps to build your WordPress knowledge with us "
+"including tutorials, reviews, and many more."
+msgstr ""
